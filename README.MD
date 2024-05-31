@@ -2,8 +2,8 @@
 
 ## ¿Quién hizo esto?
 
-Sebastián Tamayo Avendaño - Estudiante Ing Sistemas.
-Interfaz web: Natalia Flórez - Estefany Jaimes
+Sebastián Tamayo Avendaño - Estudiante Ing Sistemas.  
+Interfaz web: Natalia Flórez - Estefany Jaimes.  
 
 ## ¿Qué es y para qué es?
 
