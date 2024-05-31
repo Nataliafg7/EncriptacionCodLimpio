@@ -232,5 +232,4 @@ A continuación copia el contenido de ese archivo, ingresalo en tu editor sql y 
   import sys
   sys.path.append("src")
 `
-#   E n c r i p t a c i o n C o d L i m p i o  
- 
+#   E n c r i p t a c i o n C o d L i m p i o
