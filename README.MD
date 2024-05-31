@@ -39,7 +39,7 @@ Recuerde que cada carpeta de código fuente debe contener un archivo __init.py q
 reconozca la carpeta como un Módulo y pueda hacer import
 
 - Modulos: Existen los siguientes modulos en el conjunto de subcarpetas **src**, que estan diseñados para la logica y la interfaz del Usuario.
-
+´´´
 src/
 │
 ├── Console/
@@ -101,7 +101,7 @@ tests/
 └── UnitTests-Encryption.py
 
 app.py
-
+´´´
 
 
 Paso a Paso para Abrir Encryptation Program
