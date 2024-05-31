@@ -32,13 +32,13 @@ Cada letra está representada por un número (diccionario).
 
 ## Estructura
 
-- Carpeta src: Codigo fuente de la logica de la aplicación. Tiene subcarpetas por cada capa de la aplicacion
-- Carpeta tests: Pruebas Unitarias (UnitTests-Encryption.py)
+- **Carpeta src:** Codigo fuente de la logica de la aplicación. Tiene subcarpetas por cada capa de la aplicacion
+- **Carpeta tests:** Pruebas Unitarias (UnitTests-Encryption.py)
 
-Recuerde que cada carpeta de código fuente debe contener un archivo __init.py que permite que python
+Recuerde que cada carpeta de código fuente debe contener un archivo __init__.py que permite que python
 reconozca la carpeta como un Módulo y pueda hacer import
 
-- Modulos: Existen los siguientes modulos en el conjunto de subcarpetas **src**, que estan diseñados para la logica y la interfaz del Usuario.
+- **Modulos:** Existen los siguientes modulos en el conjunto de subcarpetas **src**, que estan diseñados para la logica y la interfaz del Usuario.
    
 ├── src/  
 │   ├── Console/  
@@ -93,49 +93,49 @@ reconozca la carpeta como un Módulo y pueda hacer import
 └── app.py  
   
 
-Paso a Paso para Abrir Encryptation Program
+#Paso a Paso para Abrir Encryptation Program#
 Aquí tienes los pasos detallados para abrir y utilizar el Encriptador de Texto:
 
-Opción 1: Descargar desde GitHub:
+**Opción 1:** Descargar desde GitHub:
 
-Descarga de Archivos:
+**Descarga de Archivos:**
 
 Descarga el archivo comprimido "EncriptacionCodLimpio" desde el enlace proporcionado o desde donde te hayan entregado el archivo.
 
-Extracción de Archivos:
+**Extracción de Archivos:**
 
 Abre el archivo comprimido "EncriptacionCodLimpio-main.zip" utilizando un programa de extracción de archivos, como WinRAR o 7-Zip.
 Extrae todos los archivos de la carpeta en una ubicación de tu elección en tu computadora.
 
-Opción 2: Clonar el Repositorio desde Github:
+**Opción 2:** Clonar el Repositorio desde Github:
 
-Clonar el Repositorio:
+**Clonar el Repositorio:**
 
-Abre la terminal o línea de comandos en tu computadora.
-Navega hasta el directorio donde deseas clonar el repositorio utilizando el comando cd.
-Utiliza el siguiente comando para clonar el repositorio desde GitHub:
-git clone https://github.com/usuario/EncriptacionCodLimpio.git
+Abre la terminal o línea de comandos en tu computadora.  
+Navega hasta el directorio donde deseas clonar el repositorio utilizando el comando cd.  
+Utiliza el siguiente comando para clonar el repositorio desde GitHub:  
+git clone https://github.com/usuario/EncriptacionCodLimpio.git  
 
 Reemplaza usuario por el nombre de usuario de GitHub donde se encuentra el repositorio.
 
-Conexión a la base de datos:
-Accede al sitio web de Neon: Ve a Neon.Tech desde tu navegador web.
+**Conexión a la base de datos:** 
+**Accede al sitio web de Neon:** Ve a Neon.Tech desde tu navegador web.
 
-Regístrate o inicia sesión: Si aún no tienes una cuenta, regístrate en la plataforma. De lo contrario, inicia sesión con tus credenciales.
+**Regístrate o inicia sesión:** Si aún no tienes una cuenta, regístrate en la plataforma. De lo contrario, inicia sesión con tus credenciales.
 
-Crea un nuevo proyecto: Una vez dentro, crea un nuevo proyecto. Elige un título para el proyecto y nombra la base de datos como "Encryptation_Program".
+**Crea un nuevo proyecto:** Una vez dentro, crea un nuevo proyecto. Elige un título para el proyecto y nombra la base de datos como "Encryptation_Program".
 
-Accede al panel de control (Dashboard): Después de crear el proyecto y la base de datos, ve al panel de control.
+**Accede al panel de control (Dashboard):** Después de crear el proyecto y la base de datos, ve al panel de control.
 
 Obtén la cadena de conexión: En el panel de control, busca la opción de "Connection string" y selecciónala. Luego elige la opción "Parameters only". Esto te proporcionará una cadena de conexión que necesitarás más adelante.
 
-Copia la cadena de conexión: Copia todo el contenido del campo de texto proporcionado con la cadena de conexión.
+**Copia la cadena de conexión:** Copia todo el contenido del campo de texto proporcionado con la cadena de conexión.
 
-Ubica el archivo SecretConfigSample.py: En el repositorio de tu proyecto, busca la carpeta "src" y luego la carpeta "Database". Dentro de esta carpeta, encontrarás un archivo llamado "SecretConfigSample.py".
+**Ubica el archivo SecretConfigSample.py:** En el repositorio de tu proyecto, busca la carpeta "src" y luego la carpeta "Database". Dentro de esta carpeta, encontrarás un archivo llamado "SecretConfigSample.py".
 
-Pega la cadena de conexión: Abre el archivo "SecretConfigSample.py" y pega los parámetros de la cadena de conexión que copiaste en el paso anterior.
+**Pega la cadena de conexión:** Abre el archivo "SecretConfigSample.py" y pega los parámetros de la cadena de conexión que copiaste en el paso anterior.
 
-Renombra el archivo: Por último, cambia el nombre del archivo "SecretConfigSample.py" por "SecretConfig.py". Esto asegurará que el sistema reconozca la configuración de la base de datos.
+**Renombra el archivo:** Por último, cambia el nombre del archivo "SecretConfigSample.py" por "SecretConfig.py". Esto asegurará que el sistema reconozca la configuración de la base de datos.
 
 ## Uso
 
@@ -181,13 +181,13 @@ módulos, incluyendo las siguientes lineas al inicio del módulo de pruebas
   python app.py
 `
 Presiona Enter para ejecutar el comando. Aparecerá un mensaje similar a este:
-     ```
-     * Running on http://127.0.0.1:5000
-     Press CTRL+C to quit
-     * Restarting with stat
-     * Debugger is active!
-     * Debugger PIN: 501-583-688
-     ```
+     ```  
+     * Running on http://127.0.0.1:5000  
+     Press CTRL+C to quit  
+     * Restarting with stat  
+     * Debugger is active!  
+     * Debugger PIN: 501-583-688  
+     ```  
 Copia el enlace de "Running on" (en este caso, `http://127.0.0.1:5000`) y pégalo en tu navegador, o presiona Ctrl y haz clic en el enlace para seguirlo directamente.
 Ahora podrás acceder a tu aplicación web en el navegador utilizando la dirección proporcionada.
 
