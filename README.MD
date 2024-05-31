@@ -39,89 +39,59 @@ Recuerde que cada carpeta de código fuente debe contener un archivo __init.py q
 reconozca la carpeta como un Módulo y pueda hacer import
 
 - Modulos: Existen los siguientes modulos en el conjunto de subcarpetas **src**, que estan diseñados para la logica y la interfaz del Usuario.
-´´´
-src/  
-│  
-├── Console/  
-│   ├── EncryptionGUI_Console.py  
-│   └── __init__.py  
-│  
-├── Database/  
-│   ├── Controllers/  
+   
+├── src/  
+│   ├── Console/  
+│   │   ├── EncryptionGUI_Console.py  
+│   │   ├──__init__.py  
+│   ├── Database/  
+│   │   ├── Controllers/  
+│   │   │   ├── __init__.py  
+│   │   │   ├── UserController.py  
+│   │   │   ├── EncryptionKeyController.py  
+│   │   ├── Models/  
+│   │   │   ├── __init__.py  
+│   │   │   ├── User.py  
+│   │   │   ├── EncryptionKey.py  
+│   │   ├── tests/  
+│   │   │   ├── ControllerEncryptionKey.py  
+│   │   │   ├── ControllerUserTest.py  
+│   │   ├── SecretConfig.py  
 │   │   ├── __init__.py  
-│   │   ├── UserController.py  
-│   │   └── EncryptionKeyController.py  
-│   ├── Models/  
+│   ├── Encryption/  
+│   │   ├──__init__.py  
+│   │   ├──EncryptionLogic.py  
+│   ├── Gui/  
+│   │   ├──Console/  
+│   │   │   ├── EncryptionGUI_Console.py  
+│   │   │   ├── __init__.py  
+│   │   ├── GuiLogic/  
+│   │   │   ├── Kivy/  
+│   │   │   │   ├── __init__.py  
+│   │   │   │   ├── EncryptionGUI_KivyLogic.py  
+│   │   │   ├── __init__.py  
+│   │   ├── Kivy/  
+│   │   │   ├── __init__.py   
+│   │   │   ├── EncryptionGUI_Kivy.py  
+│   │   │   ├── LoginGUI_Kivy.py  
+│   │   │   ├── MenuGUI_Kivy.py  
+│   │   ├── view_web/  
+│   │   │   ├── __init__.py  
+│   │   │   ├── vista_usuarios.py  
 │   │   ├── __init__.py  
-│   │   ├── User.py  
-│   │   └── EncryptionKey.py  
-│   ├── tests/  
-│   │   ├── ControllerEncryptionKey.py  
-│   │   └── ControllerUserTest.py  
-│   ├── SecretConfig.py  
-│   └── __init__.py  
-│  
-├── Encryption/  
 │   ├── __init__.py  
-│   └── EncryptionLogic.py  
-│  
-└── Gui/  
-    ├── Console/  
-    │   ├── EncryptionGUI_Console.py  
-    │   └── __init__.py  
-    ├── GuiLogic/  
-    │   ├── Kivy/  
-    │   │   ├── __init__.py  
-    │   │   └── EncryptionGUI_KivyLogic.py  
-    │   └── __init__.py  
-    ├── Kivy/  
-    │   ├── __init__.py  
-    │   ├── EncryptionGUI_Kivy.py  
-    │   ├── LoginGUI_Kivy.py  
-    │   └── MenuGUI_Kivy.py  
-    ├── view_web/  
-    │   ├── __init__.py  
-    │   └── vista_usuarios.py  
-    └── __init__.py  
+├── static/  
+│   ├── encrypt.js  
+│   ├── images/  
+│   │   ├── encriptacion.png  
+├── templates/  
+│   ├── index.html  
+│   ├── login.html  
+├── tests/  
+│   ├── __init__.py  
+│   ├── UnitTests-Encryption.py  
+└── app.py  
   
-static/  
-│  
-├── encrypt.js  
-└── images/  
-    └── encriptacion.png  
-  
-templates/  
-│  
-├── index.html  
-└── login.html  
-  
-tests/  
-│  
-├── __init__.py  
-└── UnitTests-Encryption.py  
-  
-app.py  
-                                                               
-
-static/
-│
-├── encrypt.js
-└── images/
-    └── encriptacion.png
-
-templates/
-│
-├── index.html
-└── login.html
-
-tests/
-│
-├── __init__.py
-└── UnitTests-Encryption.py
-
-app.py]
-´´´
-
 
 Paso a Paso para Abrir Encryptation Program
 Aquí tienes los pasos detallados para abrir y utilizar el Encriptador de Texto:
