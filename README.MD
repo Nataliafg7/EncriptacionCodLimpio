@@ -92,6 +92,7 @@ reconozca la carpeta como un Módulo y pueda hacer import
 │   ├── UnitTests-Encryption.py
 └── app.py
 
+
 Paso a Paso para Abrir Encryptation Program
 Aquí tienes los pasos detallados para abrir y utilizar el Encriptador de Texto:
 
