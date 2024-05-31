@@ -40,7 +40,7 @@ reconozca la carpeta como un Módulo y pueda hacer import
 
 - Modulos: Existen los siguientes modulos en el conjunto de subcarpetas **src**, que estan diseñados para la logica y la interfaz del Usuario.
 ´´´
-src/
+![src/
 │
 ├── Console/
 │   ├── EncryptionGUI_Console.py
@@ -119,7 +119,7 @@ tests/
 ├── __init__.py
 └── UnitTests-Encryption.py
 
-app.py
+app.py]
 ´´´
 
 
