@@ -101,6 +101,25 @@ tests/
 └── UnitTests-Encryption.py
 
 app.py
+                                                               
+
+static/
+│
+├── encrypt.js
+└── images/
+    └── encriptacion.png
+
+templates/
+│
+├── index.html
+└── login.html
+
+tests/
+│
+├── __init__.py
+└── UnitTests-Encryption.py
+
+app.py
 ´´´
 
 
